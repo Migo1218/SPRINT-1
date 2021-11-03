@@ -1,0 +1,161 @@
+:root{
+    --primary-color: #22254b;
+    --secundary-color: #373b69;
+}
+
+.search{
+    background-color: white;
+    border: 2px solid  var(--primary-color);
+    border-radius:50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: black;
+}
+#btnBuscar{
+    background-color: white;
+    border: 2px solid  var(--primary-color);
+    border-radius:50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: black;
+}
+
+#btnGuardar{
+    background-color: white;
+    border: 2px solid  var(--primary-color);
+    border-radius:50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: black;
+}
+
+#btnActualizar{
+    background-color: white;
+    border: 2px solid  var(--primary-color);
+    border-radius:50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: black;
+}
+
+#borrar{
+    background-color: white;
+    border: 2px solid  var(--primary-color);
+    border-radius:50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: black;
+}
+.search::placeholder{
+    color:#7378c5;
+}
+body{
+    background-color: black;
+}
+
+.search:focus{
+    outline: none;
+    background-color: white;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: black;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+img.swiper-slide {
+  display: block;
+  height: 600px;
+  object-fit: cover;
+}
+
+.w-18 {
+  width: 18rem;
+}
+
+
+
+.overview{
+    color: white;
+    background-color: #0b0c20;
+    padding: 2rem;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
+}
+
+/*.movie:hover .overview{
+    transform: translateY(0);
+}*/
+
+
+.tarjeta{
+    color: white;
+    background-color: #0b0c20;
+}
+
+#peli{
+    color: white;
+    text-align: center;
+}
+
+#img1 {
+    vertical-align: middle;
+    width: 27rem;
+}
+
+svg {
+    vertical-align: middle;
+    width: 27rem;
+}
+
+#h1{
+    color: black;
+}
+p{
+    color: black;
+}
+
+#logo{
+    width: 100px;
+}
+
+img#img1{
+    margin: auto;
+    display: block;
+}
+
+iframe {
+    height: 30rem;
+    border: 0;
+}
